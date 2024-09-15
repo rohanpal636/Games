@@ -33,9 +33,9 @@ pygame.mixer.music.set_volume(1.0)
 pygame.mixer.music.play(-1)
 pygame.mixer.music.set_pos(13)
 
-hit_sound = pygame.mixer.Sound('assets/hit.wav')
-score_sound = pygame.mixer.Sound('assets/score.wav')
-celebration_sound = pygame.mixer.Sound('assets/celebration.wav')
+hit_sound = pygame.mixer.Sound('assets2/hit.wav')
+score_sound = pygame.mixer.Sound('assets2/score.wav')
+celebration_sound = pygame.mixer.Sound('assets2/celebration.wav')
 
 hit_sound.set_volume(0.1)
 score_sound.set_volume(0.1)
